@@ -27,7 +27,7 @@ pub fn calories_on_top_elves(top_n: usize, filepath: &str) -> usize {
     return total_calories;
 }
 
-#[deprecated(note = "Initial solution, but use the generalized version tbqh")]
+#[deprecated(note = "Initial solution, but use the generalized version tbqh, just kept for the eventual onset of nostalgia.")]
 fn part_one() {
     let input = fs::read_to_string("01.txt").unwrap();
     let meals = input.lines();
@@ -51,7 +51,7 @@ fn part_one() {
     println!("Maximum calories on any elf was {}.", max_calories);
 }
 
-#[deprecated(note = "Initial solution, but use the generalized version tbqh")]
+#[deprecated(note = "Initial solution, but use the generalized version tbqh, just kept for the eventual onset of nostalgia.")]
 fn part_two() {
     let input = fs::read_to_string("01.txt").unwrap();
     let meals = input.lines();
